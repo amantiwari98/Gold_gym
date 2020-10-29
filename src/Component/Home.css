@@ -1,0 +1,478 @@
+.signup{
+    background-image: url('../images/signup.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 390px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.row1{
+    color: #ffe400;
+    padding-top: 120px;
+}
+@media  screen and (max-width: 600px) {
+    .signup { 
+       height:430px;
+    }
+    .btn2{
+        margin-left: 100px;
+    }
+    .row1 h2{
+        font-size: 35px;
+    }
+    .row1 .spoffer2{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+  }
+.spoffer{
+    font-size: 60px;
+    font-weight: bold;
+}
+.spoffer2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.row1 button{
+    color: #ffe400;
+    border: 1px solid #ffe400;
+}
+.btn2:hover{
+    background-color: #ffe400;
+    color: black;
+    transition: 0.6s ease;
+}
+.btn3{
+    background-color: #ffe400;
+    color: black;
+    padding:5px 15px;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+.btn3:hover{
+    background-color: black;
+    color: #ffe400;
+    transition: 0.6s ease;
+}
+.newgym{
+    background-color: #2a2a2a;
+    height:478px;
+    margin-bottom: 120px;
+}
+@media  screen and (max-width: 600px) {
+    .newgym { 
+       height:645px
+    }
+  }
+.institute{
+    background-image: url('../images/bk.jpg');
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media  screen and (max-width: 600px) {
+    .institute { 
+       height:1010px
+    }
+  }
+.institute h1{
+    color: white;
+    font-weight: bold;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+.institute h4{
+    color:white;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+.btn6{
+    background-color: #ffe400;
+    color: black;
+    border-radius: 2px;
+    border:1px solid white;
+    position: absolute;
+    top:100%;
+    left:50%;
+    padding: 7px 19px;
+    transform: translate(-70%, -1%);
+}
+.btn6:hover{
+    background-color: black;
+    color:#ffe400;
+    transition: 0.6s ease;
+}
+.blog h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+}
+.footer1{
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 150px;
+}
+.footer1 li{
+    color:white;
+    list-style: none;
+    padding-top: 9px;
+    cursor: pointer;
+}
+.footer1 p{
+    color:white;
+}
+@media  screen and (max-width: 600px) {
+    .footer1 { 
+       height:1480px;
+       background-image: url('../images/footer.jpg');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+  }
+.image{
+    height: 400px;
+    width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.appdownload{
+    background-image: url('../images/app2.jpg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text2{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.text2 h4{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:#ffe400
+}
+.appdownload button{
+    background-color: #ffe400;
+    color:black;
+    padding:8px 25px;
+    border:1px solid white;
+    margin-left: 310px;
+    margin-top: 15px;
+}
+
+@media  screen and (max-width: 600px) {
+    .appdownload{ 
+       height: 370px;
+    }
+    .text2 h4{
+      font-size: 35px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      padding-right: 42px;
+    }
+    .appdownload button{
+        padding:5px 10px;
+        margin-left: 50px;
+    }
+  }
+
+  /* *********************************************************************************************************** */
+  /* blog page starts from here */
+
+ .fb{
+     padding-top:50px;   
+}
+.fb h4, p{
+      color:black;
+}
+.fb h4{
+      font-weight: bold;
+      font-size: 30px;
+}
+@media  screen and (max-width: 600px) {
+    .fb{
+        margin-bottom: 20px;
+    }
+    
+}
+.stories{
+    margin-top: 110px;
+    margin-bottom: 110px;
+    background-color: #f8f8f8;
+}
+.stories h4{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.stories .card1{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    /* padding-right: 40px; */
+}
+@media  screen and (max-width: 600px) {
+    .c{
+        height: 60px;
+    }
+    .maincard{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 330px;
+    }
+    
+}
+@media  screen and (max-width: 600px) {
+    .fit1{
+        margin-top: 40px;
+    }
+    .fit1 button{
+        width: 100%;
+        background-color: black;
+        color: #ffe400;
+    }
+    .fit1 button:hover{
+        background-color: #ffe400;
+        color: black;
+    }
+}
+.c{
+    height:50px
+}
+.fit h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.fit .form-control{
+    border-radius: 1px;
+padding:10px 30px;
+}
+.fit label{
+    letter-spacing: 1px;
+    color: black;
+}
+.fit .row{
+    margin-top: 30px;
+}
+
+/* *********************************************************************************************************** */
+/* Program starts from here */
+
+/* .program{
+    padding-right: 0px;
+    padding-left: 0px;
+} */
+.program img{
+    height: 300px;
+    width: 100%;
+}
+.program2{
+ background-image: url('../images/app2.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ margin-top: 10px;
+ height: 110px;
+ width: 100%;
+}
+@media  screen and (max-width: 600px) {
+    .program2{
+        height: 220px;
+    }
+}
+.program2 h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.program2 h3{
+    text-align: center;
+    color: blue;
+}
+.program2 .sp{
+    background-color: #ffe400;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.program3 {
+    margin-top: 70px;
+}
+.program3 h3{
+    color: black;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.program3 p{
+    color:black;
+    letter-spacing: 2px;
+}
+.program4{
+    border-left:1px solid black;
+}
+.program4 h5{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.program4 ul li{
+    color:black;
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+    list-style: none;
+    cursor: pointer;
+}
+.program5 {
+    background-color:#161313;
+    padding:40px;
+    margin-top: 120px;
+}
+.program5 h6{
+    color:white;
+    padding-top:13px;
+    font-weight: bold;
+}
+.program5 input{
+    width: 100%;
+    padding: 11px;
+    border-radius: 1px;
+    border:1px solid white;
+}
+.program5 button{
+    background-color: #ffe400;
+    color: black;
+    padding: 11px;
+    width: 100%;
+    font-weight: bold;
+}
+@media  screen and (max-width: 600px) {
+    .program5 input{
+        margin-bottom: 5px;
+    }
+    .program5 h6{
+        text-align: center;
+        margin-bottom: 19px;
+    }
+}
+
+/* ******************************************************************************************************* */
+/* Franchies page strts from here */
+
+.fran img{
+    width: 100%;
+    height: 550px;
+}
+@media  screen and (max-width: 600px) {
+    .fran img{
+        height: 350px;
+    }
+}
+.fran2{
+    margin-top: 80px;
+    text-align: center;
+}
+.fran2 h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+@media  screen and (max-width: 600px) {
+    .fran2 h1{
+        font-size: 35px;
+    }
+}
+.fran2 button{
+    background-color: #ffe400;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 20px;
+}
+.fran2 h6{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: black;
+}
+.fran2 p{
+    color: black;
+    letter-spacing: 1px;
+}
+.fran3{
+    margin-top: 88px;
+    background-color: #f8f8f8;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.fran3 h2{
+    font-size:33px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.fran3 h4{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+}
+.line{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+@media  screen and (max-width: 600px) {
+    .line{
+        font-size: 30px;
+    }
+}
+.fran3 .bor{
+    border-left: 1px solid black;
+}
+.fran4{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/img14.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.text3 h1{
+    color: #ffe400;
+    padding-top:100px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.text3 p{
+    color: white;
+}
+@media  screen and (max-width: 600px) {
+    .fran4{
+        height: 400px;
+    }
+    .text3 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.fran4 .btn{
+    background-color: #ffe400;
+    color: black;
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px white;
+    font-weight: bold;
+}
